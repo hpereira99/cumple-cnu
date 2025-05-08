@@ -1,10 +1,12 @@
 :root {
   --height: calc(80vh - 50px);
   --width: 450px;
+  --canvas: 220;
 }
 
 body {
   overflow-y: hidden;
+  background-color: #303541;
 }
 
 .carousel {
@@ -212,6 +214,7 @@ body {
 }
 
 .carousel__contents .user__name {
+    font-family: lexend;
   color: #e8eff4;
   font-size: 1.75em;
   font-weight: 600;
@@ -238,6 +241,7 @@ body {
 
 .carousel__contents .user__title,
 .carousel__contents .user__name {
+  font-family: lexend;
   margin: 0;
   line-height: 1.1;
   opacity: 0;
@@ -272,6 +276,7 @@ body {
   }
   .carousel__contents .user__title,
   .carousel__contents .user__name {
+    font-family: lexend;
     max-width: 70vh;
     transform: translateX(200px);
   }
@@ -283,6 +288,7 @@ body {
   opacity: 1;
 }
 [data-active] .carousel__contents .user__name {
+  font-family: lexend;
   transition-delay: 0.1s;
 }
 [data-active] .carousel__contents .user__title {

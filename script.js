@@ -104,7 +104,7 @@ $list.addEventListener("keyup", handleSlideKey);
 
 window.onload = function() {
 
-  /* var duration = 3 * 1000;
+  var duration = 3 * 1000;
   var animationEnd = Date.now() + duration;
   var defaults = { startVelocity: 30, spread: 60, ticks: 60, zIndex: 0 };
 
@@ -127,7 +127,7 @@ window.onload = function() {
 
   // ##########################################################################
 
-  var end = Date.now() + (2 * 1000);
+/*   var end = Date.now() + (2 * 1000);
   // go Buckeyes!
   var colors = ['#bb0000', '#ffffff'];
 
