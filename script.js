@@ -101,7 +101,8 @@ $prev.addEventListener("click", handlePrevClick);
 $list.addEventListener("focusin", handleSlideClick);
 $list.addEventListener("keyup", handleSlideKey);
 
-window.onload = function() {
+
+/* window.onload = function() {
 
   var duration = 3 * 1000;
   var animationEnd = Date.now() + duration;
@@ -150,4 +151,4 @@ window.onload = function() {
       requestAnimationFrame(frame);
     }
   }());
-};
+}; */
